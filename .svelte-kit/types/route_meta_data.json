@@ -1,0 +1,9 @@
+{
+	"/": [
+		"src/routes/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/api/[...remult]": [
+		"src/routes/api/[...remult]/+server.ts"
+	]
+}
