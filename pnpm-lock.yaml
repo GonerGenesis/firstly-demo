@@ -25,13 +25,13 @@ importers:
         version: 3.1.1(svelte@4.2.18)(vite@5.3.3(@types/node@20.14.9))
       firstly:
         specifier: 0.0.3
-        version: 0.0.3(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(@types/node@20.14.9)))(svelte@4.2.18)(vite@5.3.3(@types/node@20.14.9)))(@types/node@20.14.9)(postcss@8.4.39)(remult@0.26.16)(svelte@4.2.18)
+        version: 0.0.3(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(@types/node@20.14.9)))(svelte@4.2.18)(vite@5.3.3(@types/node@20.14.9)))(@types/node@20.14.9)(postcss@8.4.39)(remult@0.26.15)(svelte@4.2.18)
       pg:
         specifier: 8.11.3
         version: 8.11.3
       remult:
-        specifier: 0.26.16
-        version: 0.26.16
+        specifier: 0.26.15
+        version: 0.26.15
       svelte:
         specifier: ^4.2.7
         version: 4.2.18
@@ -2995,8 +2995,8 @@ packages:
   remove-trailing-separator@1.1.0:
     resolution: {integrity: sha512-/hS+Y0u3aOfIETiaiirUFwDBDzmXPvO+jAfKTitUngIPzdKc6Z0LoFjM/CK5PL4C+eKwHohlHAb6H0VFfmmUsw==}
 
-  remult@0.26.16:
-    resolution: {integrity: sha512-A5cEJHvenopBGdcsyCW+qcFQi2QnRJEkJNfIrK83I1U2O8dWi9AwdEj35FHlig9lxFyXGDK8/zKwePOUb3/znw==}
+  remult@0.26.15:
+    resolution: {integrity: sha512-yhzKv2Wq1Y/e3PUB3X9Q6sCbK752fR71Lz8glY7QFpSyMZe2aVM1II3F7TPmZlLp0g4Ft/9btaZa1WhQNrA+4Q==}
 
   resolve-from@4.0.0:
     resolution: {integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==}
@@ -5826,7 +5826,7 @@ snapshots:
       locate-path: 6.0.0
       path-exists: 4.0.0
 
-  firstly@0.0.3(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(@types/node@20.14.9)))(svelte@4.2.18)(vite@5.3.3(@types/node@20.14.9)))(@types/node@20.14.9)(postcss@8.4.39)(remult@0.26.16)(svelte@4.2.18):
+  firstly@0.0.3(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(@types/node@20.14.9)))(svelte@4.2.18)(vite@5.3.3(@types/node@20.14.9)))(@types/node@20.14.9)(postcss@8.4.39)(remult@0.26.15)(svelte@4.2.18):
     dependencies:
       '@clack/prompts': 0.7.0
       '@mdi/js': 7.4.47
@@ -5841,7 +5841,7 @@ snapshots:
       lucia: 3.2.0
       nodemailer: 6.9.14
       oslo: 1.2.1
-      remult: 0.26.16
+      remult: 0.26.15
       svelte: 4.2.18
       tailwind-merge: 2.3.0
       tailwindcss: 3.4.4
@@ -7170,7 +7170,7 @@ snapshots:
 
   remove-trailing-separator@1.1.0: {}
 
-  remult@0.26.16:
+  remult@0.26.15:
     dependencies:
       '@paralleldrive/cuid2': 2.2.2
       reflect-metadata: 0.1.14
