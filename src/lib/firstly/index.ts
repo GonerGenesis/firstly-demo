@@ -25,30 +25,30 @@ export const api = firstly({
   // }),
   modules: [
     // core module: auth
-    auth({
-      providers: {
-        demo: [
-          { name: 'Ermin' },
-          { name: 'JYC', roles: [Role.ADMIN] },
-          { name: 'Noam', roles: [Role.SUPER_ADMIN] },
-        ],
+    // auth({
+    //   providers: {
+    //     demo: [
+    //       { name: 'Ermin' },
+    //       { name: 'JYC', roles: [Role.ADMIN] },
+    //       { name: 'Noam', roles: [Role.SUPER_ADMIN] },
+    //     ],
 
-        // password: {},
+    //     // password: {},
 
-        // otp: {},
+    //     // otp: {},
 
-        oAuths: [
-          // To enable GitHub auth,
-          // 1/ Add your GitHub credentials to .env file (example in .env.example)
-          // 2/ uncomment imports & github() call below
-          // 3/ under a button click call something like this:
-          //      async function oauth() {
-          //        window.location.href = await AuthController.signInOAuthGetUrl({ provider: 'github', redirect: window.location.pathname })
-          //      }
-          // github( { GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET } )
-        ],
-      },
-    }),
+    //     oAuths: [
+    //       // To enable GitHub auth,
+    //       // 1/ Add your GitHub credentials to .env file (example in .env.example)
+    //       // 2/ uncomment imports & github() call below
+    //       // 3/ under a button click call something like this:
+    //       //      async function oauth() {
+    //       //        window.location.href = await AuthController.signInOAuthGetUrl({ provider: 'github', redirect: window.location.pathname })
+    //       //      }
+    //       // github( { GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET } )
+    //     ],
+    //   },
+    // }),
 
     // example of a userland module
     tasks({ specialInfo: 'hello from userland' }),

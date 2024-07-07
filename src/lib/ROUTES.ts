@@ -41,7 +41,7 @@ const ACTIONS = {
  * LINKS
  */
 const LINKS = {
-  "github": (params: { owner: (string | number), repo: (string | number) }) => {
+  "github": (params: { repo: (string | number), owner: (string | number) }) => {
     return `https://github.com/${params.owner}/${params.repo}`
   }
 }
@@ -149,6 +149,6 @@ export type KIT_ROUTES = {
   PAGES: { '/': never }
   SERVERS: { 'GET /api/[...remult]': 'remult', 'POST /api/[...remult]': 'remult', 'PUT /api/[...remult]': 'remult', 'DELETE /api/[...remult]': 'remult' }
   ACTIONS: Record<string, never>
-  LINKS: { 'github': 'owner' | 'repo' }
-  Params: { remult: never, owner: never, repo: never }
+  LINKS: { 'github': 'repo' | 'owner' }
+  Params: { remult: never, repo: never, owner: never }
 }
