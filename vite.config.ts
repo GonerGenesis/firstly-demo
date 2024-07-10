@@ -17,4 +17,8 @@ export default defineConfig({
     }),
     sveltekit(),
   ],
+  resolve: {
+    // Prioritize 'module' and 'esnext' fields over 'main' in package.json
+    mainFields: ['module', 'esnext', 'main'],
+  },
 })
